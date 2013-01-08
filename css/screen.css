@@ -226,14 +226,25 @@
 }
 /* line 48, ../sass/partials/bestiarum.scss */
 #right-column .people li {
-  height: 49px;
   position: relative;
   display: inline-block;
+}
+/* line 49, ../sass/partials/bestiarum.scss */
+#right-column .people li:hover {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 57, ../sass/partials/bestiarum.scss */
+#right-column .people li a {
+  height: 49px;
+  display: block;
+  position: relative;
   margin-right: 4px;
   margin-bottom: 4px;
+  text-decoration: none;
 }
-/* line 54, ../sass/partials/bestiarum.scss */
-#right-column .people li .container {
+/* line 65, ../sass/partials/bestiarum.scss */
+#right-column .people li a .container {
   border: 2px solid black;
   outline: 1px solid white;
   background-color: white;
@@ -241,8 +252,8 @@
   float: left;
   padding: 1px 8px 0px 8px;
 }
-/* line 62, ../sass/partials/bestiarum.scss */
-#right-column .people li .container .corner-left {
+/* line 73, ../sass/partials/bestiarum.scss */
+#right-column .people li a .container .corner-left {
   position: absolute;
   background: url("../images/people_corner_left.png") top left no-repeat;
   background-color: white;
@@ -251,8 +262,8 @@
   margin-left: -8px;
   margin-top: -1px;
 }
-/* line 71, ../sass/partials/bestiarum.scss */
-#right-column .people li .container .corner-right {
+/* line 82, ../sass/partials/bestiarum.scss */
+#right-column .people li a .container .corner-right {
   float: right;
   background: url("../images/people_corner_right.png") top left no-repeat;
   background-color: white;
@@ -261,8 +272,8 @@
   margin-right: -8px;
   margin-top: -1px;
 }
-/* line 80, ../sass/partials/bestiarum.scss */
-#right-column .people li .container h3 {
+/* line 91, ../sass/partials/bestiarum.scss */
+#right-column .people li a .container h3 {
   margin: 0 !important;
   padding: 0 !important;
   font-family: "libertine italic";
@@ -272,8 +283,8 @@
   font-weight: normal;
   color: black;
 }
-/* line 91, ../sass/partials/bestiarum.scss */
-#right-column .people li .container h4 {
+/* line 102, ../sass/partials/bestiarum.scss */
+#right-column .people li a .container h4 {
   margin: 0 !important;
   padding: 0 !important;
   font-family: "lekton italic";
@@ -282,31 +293,79 @@
   text-transform: uppercase;
   color: black;
 }
-/* line 104, ../sass/partials/bestiarum.scss */
-#right-column .people li:visited .container {
+/* line 117, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited .container {
   border: 2px solid #00FFCE;
 }
-/* line 106, ../sass/partials/bestiarum.scss */
-#right-column .people li:visited .container .corner-left {
-  background: url("../images/people_corner_left_hover.png") top left no-repeat;
+/* line 119, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited .container .corner-left {
+  background-image: url("../images/people_corner_left_hover.png") !important;
 }
-/* line 109, ../sass/partials/bestiarum.scss */
-#right-column .people li:visited .container .corner-right {
-  background: url("../images/people_corner_right_hover.png") top left no-repeat;
+/* line 122, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited .container .corner-right {
+  background-image: url("../images/people_corner_right_hover.png") !important;
 }
-/* line 112, ../sass/partials/bestiarum.scss */
-#right-column .people li:visited .container h3, #right-column .people li:visited .container h4 {
+/* line 125, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited .container h3, #right-column .people a:visited .container h4 {
   color: #00FFCE;
 }
-/* line 117, ../sass/partials/bestiarum.scss */
-#right-column .people li:hover {
+/* line 130, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited:hover .container {
+  border: 2px solid black;
+  outline: 1px solid white;
+  background-color: white;
+  position: relative;
+  float: left;
+  padding: 1px 8px 0px 8px;
+}
+/* line 138, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited:hover .container .corner-left {
+  position: absolute;
+  background: white url("../images/people_corner_left.png") top left no-repeat;
+  width: 7px;
+  height: 47px;
+  margin-left: -8px;
+  margin-top: -1px;
+}
+/* line 147, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited:hover .container .corner-right {
+  float: right;
+  background: white url("../images/people_corner_right.png") top left no-repeat;
+  width: 7px;
+  height: 47px;
+  margin-right: -8px;
+  margin-top: -1px;
+}
+/* line 157, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited:hover .container h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "libertine italic";
+  font-size: 23px;
+  line-height: 27px;
+  text-decoration: underline;
+  font-weight: normal;
+  color: black;
+}
+/* line 168, ../sass/partials/bestiarum.scss */
+#right-column .people a:visited:hover .container h4 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "lekton italic";
+  font-size: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: black;
+}
+/* line 180, ../sass/partials/bestiarum.scss */
+#right-column .people a:hover {
   position: relative;
   height: 49px;
   margin: 0 !important;
   margin-right: 3px !important;
 }
-/* line 124, ../sass/partials/bestiarum.scss */
-#right-column .people li:hover .left_hover {
+/* line 188, ../sass/partials/bestiarum.scss */
+#right-column .people a:hover .left_hover {
   position: absolute;
   bottom: 1px;
   left: -12px;
@@ -314,16 +373,16 @@
   height: 12px;
   background: url("../images/left_hover.png") top left no-repeat;
 }
-/* line 132, ../sass/partials/bestiarum.scss */
-#right-column .people li:hover .center_hover {
+/* line 196, ../sass/partials/bestiarum.scss */
+#right-column .people a:hover .center_hover {
   position: relative;
   float: left;
   height: 12px;
   width: 97%;
   background: url("../images/center_hover.png") bottom left repeat-x;
 }
-/* line 140, ../sass/partials/bestiarum.scss */
-#right-column .people li:hover .right_hover {
+/* line 204, ../sass/partials/bestiarum.scss */
+#right-column .people a:hover .right_hover {
   position: absolute;
   top: -15px;
   margin-right: 6px;
@@ -332,16 +391,16 @@
   height: 63px;
   background: url("../images/right_hover.png") top left no-repeat;
 }
-/* line 149, ../sass/partials/bestiarum.scss */
-#right-column .people li:hover .container {
+/* line 213, ../sass/partials/bestiarum.scss */
+#right-column .people a:hover .container {
   margin-top: -15px;
   margin-left: -11px;
   margin-right: 12px;
   position: relative;
   float: left;
 }
-/* line 155, ../sass/partials/bestiarum.scss */
-#right-column .people li:hover .container h3 {
+/* line 219, ../sass/partials/bestiarum.scss */
+#right-column .people a:hover .container h3 {
   background-color: #00FFCE;
 }
 
@@ -431,37 +490,21 @@ nav.breadcrumb a:focus {
 #post .content-data {
   margin-left: 25.42373%;
   position: relative;
-  background: white;
-  border: 2px solid black;
+  background: url("../images/post-data.png") no-repeat left top;
   width: 167px;
-  height: 29px;
+  height: 35px;
 }
-/* line 25, ../sass/partials/post.scss */
+/* line 24, ../sass/partials/post.scss */
 #post .content-data h1 {
   font-family: "lekton italic";
   font-size: 10px;
   font-weight: normal;
   text-transform: uppercase;
-  position: relative;
-  margin-top: -20px;
+  position: absolute;
+  margin-top: 10px;
   margin-left: 33px;
 }
-/* line 37, ../sass/partials/post.scss */
-#post .content-data .left-corner {
-  background: url("../images/btn_corner_left_white.png") no-repeat left top;
-  width: 6px;
-  height: 27px;
-}
-/* line 43, ../sass/partials/post.scss */
-#post .content-data .right-corner {
-  background: url("../images/btn_corner_right_white.png") no-repeat left top;
-  width: 6px;
-  height: 27px;
-  float: right;
-  position: relative;
-  margin-top: -26px;
-}
-/* line 58, ../sass/partials/post.scss */
+/* line 40, ../sass/partials/post.scss */
 #post .content-news {
   margin-left: 25.42373%;
   position: relative;
@@ -472,7 +515,7 @@ nav.breadcrumb a:focus {
   float: left;
   margin-top: 10px;
 }
-/* line 68, ../sass/partials/post.scss */
+/* line 50, ../sass/partials/post.scss */
 #post .content-news h1 {
   font-family: "lato black";
   font-size: 16px;
@@ -483,7 +526,7 @@ nav.breadcrumb a:focus {
   margin-left: 20px;
   text-decoration: underline;
 }
-/* line 79, ../sass/partials/post.scss */
+/* line 61, ../sass/partials/post.scss */
 #post .content-news .autore {
   font-family: "lato regular italic";
   font-size: 13px;
@@ -493,7 +536,7 @@ nav.breadcrumb a:focus {
   margin-top: -130px;
   margin-left: 20px;
 }
-/* line 89, ../sass/partials/post.scss */
+/* line 71, ../sass/partials/post.scss */
 #post .content-news .data {
   font-family: "lato regular italic";
   font-size: 13px;
@@ -504,7 +547,7 @@ nav.breadcrumb a:focus {
   margin-left: 20px;
   background-color: #00FFCE;
 }
-/* line 100, ../sass/partials/post.scss */
+/* line 82, ../sass/partials/post.scss */
 #post .content-news .dove {
   font-family: "lato black italic";
   font-size: 13px;
@@ -515,7 +558,7 @@ nav.breadcrumb a:focus {
   margin-top: -130px;
   margin-left: 20px;
 }
-/* line 111, ../sass/partials/post.scss */
+/* line 93, ../sass/partials/post.scss */
 #post .content-news .indirizzo {
   font-family: "lato regular italic";
   font-size: 13px;
@@ -524,13 +567,13 @@ nav.breadcrumb a:focus {
   position: relative;
   margin-top: -130px;
 }
-/* line 120, ../sass/partials/post.scss */
+/* line 102, ../sass/partials/post.scss */
 #post .content-news .left-corner {
   background: url("../images/btn_left_corner_news.png") no-repeat left top;
   width: 6px;
   height: 145px;
 }
-/* line 126, ../sass/partials/post.scss */
+/* line 108, ../sass/partials/post.scss */
 #post .content-news .right-corner {
   background: url("../images/btn_right_corner_news .png") no-repeat left top;
   width: 6px;
@@ -539,7 +582,7 @@ nav.breadcrumb a:focus {
   position: relative;
   margin-top: -144px;
 }
-/* line 138, ../sass/partials/post.scss */
+/* line 120, ../sass/partials/post.scss */
 #post .read-more {
   position: relative;
   background: url("../images/read-more.png") no-repeat left top;
@@ -548,7 +591,7 @@ nav.breadcrumb a:focus {
   margin-top: -20px;
   margin-left: 147px;
 }
-/* line 146, ../sass/partials/post.scss */
+/* line 128, ../sass/partials/post.scss */
 #post .read-more h1 {
   font-family: "libertine black italic";
   font-size: 14px;
@@ -1116,7 +1159,7 @@ body {
   padding-right: 0.625em;
   margin-left: 0;
 }
-/* line 38, ../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .grid:after, #container:after {
   content: "";
   display: table;

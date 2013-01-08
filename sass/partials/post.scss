@@ -16,10 +16,9 @@ position: absolute;
 .content-data{
   @include pre(3);
   position: relative; 
-  background: white;
-  border: 2px solid black;
+  background: url('../images/post-data.png') no-repeat left top;
   width: 167px;
-  height: 29px;
+  height: 35px;
   
 
 h1{
@@ -27,33 +26,16 @@ font-family: "lekton italic";
 font-size: 10px;
 font-weight: normal;
 text-transform: uppercase;
-position: relative; 
-margin-top: -20px;
+position: absolute; 
+margin-top: 10px;
 margin-left: 33px;
 
 
 }
 
-.left-corner{
-		background: url('../images/btn_corner_left_white.png') no-repeat left top;
-		width: 6px;
-		height: 27px;
-	}
-
-   .right-corner{
-	background: url('../images/btn_corner_right_white.png') no-repeat left top;
-	width: 6px;
-	height: 27px;
-	float: right;
-	position: relative;
-	margin-top: -26px;
-}
 
 
 }
-
-
-
 
 .content-news{
  @include pre(3);
