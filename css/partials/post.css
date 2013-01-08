@@ -29,79 +29,69 @@
   position: relative;
   background: white;
   border: 2px solid black;
-  width: 282px;
-  height: 146px;
+  outline: 1px solid white;
+  width: 276px;
   float: left;
   margin-top: 10px;
 }
 /* line 50, ../../sass/partials/post.scss */
+#post .content-news .corner-up {
+  background: url("../images/post-text-up.png") no-repeat;
+  width: 276px;
+  height: 7px;
+  position: absolute;
+}
+/* line 59, ../../sass/partials/post.scss */
+#post .content-news .corner-down {
+  background: url("../images/post-text-down.png") no-repeat;
+  width: 276px;
+  height: 7px;
+  margin-top: 8px;
+}
+/* line 68, ../../sass/partials/post.scss */
 #post .content-news h1 {
   font-family: "lato black";
   font-size: 16px;
   line-height: 18px;
   font-weight: normal;
-  position: relative;
-  margin-top: -130px;
-  margin-left: 20px;
   text-decoration: underline;
+  padding: 4px;
 }
-/* line 61, ../../sass/partials/post.scss */
+/* line 77, ../../sass/partials/post.scss */
 #post .content-news .autore {
   font-family: "lato regular italic";
   font-size: 13px;
   line-height: 17px;
   font-weight: normal;
-  position: relative;
-  margin-top: -130px;
-  margin-left: 20px;
+  padding: 4px;
 }
-/* line 71, ../../sass/partials/post.scss */
+/* line 85, ../../sass/partials/post.scss */
 #post .content-news .data {
   font-family: "lato regular italic";
   font-size: 13px;
   line-height: 17px;
   font-weight: normal;
-  position: relative;
-  margin-top: -130px;
-  margin-left: 20px;
   background-color: #00FFCE;
+  margin: 0;
+  margin-left: 4px;
 }
-/* line 82, ../../sass/partials/post.scss */
+/* line 95, ../../sass/partials/post.scss */
 #post .content-news .dove {
   font-family: "lato black italic";
   font-size: 13px;
   line-height: 17px;
   font-weight: normal;
   text-transform: uppercase;
-  position: relative;
-  margin-top: -130px;
-  margin-left: 20px;
+  padding: 4px;
 }
-/* line 93, ../../sass/partials/post.scss */
+/* line 105, ../../sass/partials/post.scss */
 #post .content-news .indirizzo {
   font-family: "lato regular italic";
   font-size: 13px;
   line-height: 17px;
   font-weight: normal;
-  position: relative;
-  margin-top: -130px;
 }
-/* line 102, ../../sass/partials/post.scss */
-#post .content-news .left-corner {
-  background: url("../images/btn_left_corner_news.png") no-repeat left top;
-  width: 6px;
-  height: 145px;
-}
-/* line 108, ../../sass/partials/post.scss */
-#post .content-news .right-corner {
-  background: url("../images/btn_right_corner_news .png") no-repeat left top;
-  width: 6px;
-  height: 145px;
-  float: right;
-  position: relative;
-  margin-top: -144px;
-}
-/* line 120, ../../sass/partials/post.scss */
+/* line 115, ../../sass/partials/post.scss */
 #post .read-more {
   position: relative;
   background: url("../images/read-more.png") no-repeat left top;
@@ -110,7 +100,7 @@
   margin-top: -20px;
   margin-left: 147px;
 }
-/* line 128, ../../sass/partials/post.scss */
+/* line 123, ../../sass/partials/post.scss */
 #post .read-more h1 {
   font-family: "libertine black italic";
   font-size: 14px;

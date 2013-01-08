@@ -42,20 +42,36 @@ margin-left: 33px;
   position: relative; 
   background: white;
   border: 2px solid black;
-  width: 282px;
-  height: 146px;
+  outline: 1px solid white;
+  width: 276px;
   float: left;
   margin-top: 10px;
+  
+  .corner-up{
+  background: url('../images/post-text-up.png') no-repeat ;
+  width: 276px;
+  height: 7px;
+  position: absolute;
+  
+  
+  }
+  
+  .corner-down{
+  background: url('../images/post-text-down.png') no-repeat ;
+  width: 276px;
+  height: 7px;
+  margin-top: 8px;
+  
+  
+  }
 
 h1{
 font-family: "lato black";
 font-size: 16px;
 line-height: 18px;
 font-weight: normal;
-position: relative; 
-margin-top: -130px;
-margin-left: 20px;
 text-decoration: underline;
+padding: 4px;
 }
 
 .autore{
@@ -63,9 +79,7 @@ font-family: "lato regular italic";
 font-size: 13px;
 line-height: 17px;
 font-weight: normal;
-position: relative; 
-margin-top: -130px;
-margin-left: 20px;
+padding: 4px;
 }
 
 .data{
@@ -73,10 +87,9 @@ font-family: "lato regular italic";
 font-size: 13px;
 line-height: 17px;
 font-weight: normal;
-position: relative; 
-margin-top: -130px;
-margin-left: 20px;
 background-color: #00FFCE;
+margin: 0;
+margin-left: 4px;
 }
 
 .dove{
@@ -85,9 +98,8 @@ font-size: 13px;
 line-height: 17px;
 font-weight: normal;
 text-transform: uppercase;
-position: relative; 
-margin-top: -130px;
-margin-left: 20px;
+padding: 4px;
+
 }
 
 .indirizzo{
@@ -95,23 +107,6 @@ font-family: "lato regular italic";
 font-size: 13px;
 line-height: 17px;
 font-weight: normal;
-position: relative; 
-margin-top: -130px;
-}
-
-.left-corner{
-		background: url('../images/btn_left_corner_news.png') no-repeat left top;
-		width: 6px;
-		height: 145px;
-	}
-
-   .right-corner{
-	background: url('../images/btn_right_corner_news .png') no-repeat left top;
-	width: 6px;
-	height: 145px;
-	float: right;
-	position: relative;
-	margin-top: -144px;
 }
 
 
