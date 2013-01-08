@@ -13,7 +13,7 @@
   margin-top: 50px;
   
   .corner-up{
-  background: url('../images/post-next-up.png') no-repeat ;
+  background: url('../images/post-next-up.png') top no-repeat ;
   width: 636px;
   height: 7px;
   position: absolute;
@@ -22,10 +22,12 @@
   }
   
   .corner-down{
-  background: url('../images/post-next-down.png') no-repeat ;
+  background: url('../images/post-next-down.png') bottom no-repeat ;
   width: 636px;
   height: 7px;
-  margin-top: 74px;
+  position: relative;
+  float: left;
+  
   
   
   }

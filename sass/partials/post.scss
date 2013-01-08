@@ -48,7 +48,7 @@ margin-left: 33px;
   margin-top: 10px;
   
   .corner-up{
-  background: url('../images/post-text-up.png') no-repeat ;
+  background: url('../images/post-text-up.png') top no-repeat ;
   width: 276px;
   height: 7px;
   position: absolute;
@@ -57,11 +57,11 @@ margin-left: 33px;
   }
   
   .corner-down{
-  background: url('../images/post-text-down.png') no-repeat ;
+  background: url('../images/post-text-down.png') bottom no-repeat ;
   width: 276px;
   height: 7px;
-  margin-top: 8px;
-  
+  position: relative;
+  float: left;;  
   
   }
 

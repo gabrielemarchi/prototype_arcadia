@@ -36,17 +36,18 @@
 }
 /* line 50, ../../sass/partials/post.scss */
 #post .content-news .corner-up {
-  background: url("../images/post-text-up.png") no-repeat;
+  background: url("../images/post-text-up.png") top no-repeat;
   width: 276px;
   height: 7px;
   position: absolute;
 }
 /* line 59, ../../sass/partials/post.scss */
 #post .content-news .corner-down {
-  background: url("../images/post-text-down.png") no-repeat;
+  background: url("../images/post-text-down.png") bottom no-repeat;
   width: 276px;
   height: 7px;
-  margin-top: 8px;
+  position: relative;
+  float: left;
 }
 /* line 68, ../../sass/partials/post.scss */
 #post .content-news h1 {
