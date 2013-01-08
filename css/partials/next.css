@@ -24,7 +24,7 @@
   position: relative;
   float: left;
 }
-/* line 36, ../../sass/partials/next.scss */
+/* line 33, ../../sass/partials/next.scss */
 .content-next h1 {
   font-family: "libertine italic";
   font-size: 23px;
@@ -35,7 +35,7 @@
   text-decoration: underline;
   margin-left: 210px;
 }
-/* line 47, ../../sass/partials/next.scss */
+/* line 44, ../../sass/partials/next.scss */
 .content-next .data-next {
   font-family: "lekton italic";
   font-size: 10px;
@@ -47,7 +47,7 @@
   margin-top: 20px;
   margin-left: 16px;
 }
-/* line 60, ../../sass/partials/next.scss */
+/* line 57, ../../sass/partials/next.scss */
 .content-next .luogo-next {
   font-family: "lekton italic";
   font-size: 10px;
@@ -59,13 +59,13 @@
   margin-top: 50px;
   margin-left: 16px;
 }
-/* line 73, ../../sass/partials/next.scss */
+/* line 70, ../../sass/partials/next.scss */
 .content-next .img {
   background: url("../images/img1.png") no-repeat left top;
   width: 401px;
   height: 309px;
 }
-/* line 80, ../../sass/partials/next.scss */
+/* line 77, ../../sass/partials/next.scss */
 .content-next .intro {
   font-family: "libertine italic";
   font-size: 12px;
@@ -76,18 +76,7 @@
   float: right;
   text-indent: 2px;
 }
-/* line 91, ../../sass/partials/next.scss */
-.content-next .intro2 {
-  font-family: "libertine italic";
-  font-size: 12px;
-  line-height: 15px;
-  font-weight: normal;
-  position: relative;
-  float: right;
-  text-indent: 2px;
-  margin-top: 78px;
-}
-/* line 102, ../../sass/partials/next.scss */
+/* line 89, ../../sass/partials/next.scss */
 .content-next .barra-text {
   background: url("../images/barra_text.png") no-repeat top left;
   width: 27px;
@@ -97,7 +86,7 @@
   margin-top: 8px;
 }
 
-/* line 118, ../../sass/partials/next.scss */
+/* line 105, ../../sass/partials/next.scss */
 .next {
   position: relative;
   background: url("../images/cont-next.png") no-repeat left top;
@@ -106,7 +95,7 @@
   margin-top: -20px;
   margin-left: 230px;
 }
-/* line 126, ../../sass/partials/next.scss */
+/* line 113, ../../sass/partials/next.scss */
 .next h1 {
   font-family: "libertine black italic";
   font-size: 30px;
@@ -119,7 +108,7 @@
   background-color: #00FFCE;
 }
 
-/* line 144, ../../sass/partials/next.scss */
+/* line 131, ../../sass/partials/next.scss */
 .content-post {
   margin-left: 25.42373%;
   position: relative;
@@ -128,7 +117,7 @@
   float: left;
   margin-top: 50px;
 }
-/* line 152, ../../sass/partials/next.scss */
+/* line 139, ../../sass/partials/next.scss */
 .content-post .data-post {
   font-family: "lekton italic";
   font-size: 10px;
@@ -136,7 +125,7 @@
   font-weight: normal;
   text-transform: uppercase;
 }
-/* line 161, ../../sass/partials/next.scss */
+/* line 148, ../../sass/partials/next.scss */
 .content-post .article {
   width: 17.72152%;
   float: left;
@@ -148,7 +137,7 @@
   line-height: 17px;
   font-weight: normal;
 }
-/* line 172, ../../sass/partials/next.scss */
+/* line 159, ../../sass/partials/next.scss */
 .content-post h1 {
   font-family: "lato black";
   font-size: 16px;

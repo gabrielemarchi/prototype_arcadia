@@ -6,35 +6,35 @@
   position: relative; 
   background: white;
   border: 2px solid black;
+  outline: 1px solid white;
   width: 636px;
-  height: 138px;
   float: left;
   
-  .left-corner{
-  		background: url('../images/btn_left_corner_next.png') no-repeat left top;
-  		width: 6px;
-  		height: 136px;
-  	}
-  
-     .right-corner{
-  	background: url('../images/btn_right_corner_news .png') no-repeat left top;
-  	width: 6px;
-  	height: 136px;
-  	float: right;
-  	position: relative;
-  	margin-top: -134px;
-  }
-  
-  
-  .foto{
-  background: url('../images/foto_prova.png') no-repeat;
-  width: 106px;
-  height: 106px;
+  .corner-up{
+  background: url('../images/post-next-up.png') top no-repeat ;
+  width: 636px;
+  height: 7px;
   position: absolute;
-  margin-left: 30px;
-  margin-top: -120px;
-  
   }
+  
+  .corner-down{
+  background: url('../images/post-next-down.png') bottom no-repeat ;
+  width: 636px;
+  height: 7px;
+  position: relative;
+  float: left;
+  }
+  
+  
+    
+  
+//  .foto{
+//  background: url('../images/foto_prova.png') no-repeat;
+//  width: 106px;
+//  height: 106px;
+// 
+//  
+//  }
   
 
 h1{
@@ -44,58 +44,56 @@ line-height: 27px;
 font-weight: normal;
 text-transform: uppercase;
 position: absolute; 
-margin-top: -125px;
-margin-left: 20px;
 text-decoration: underline;
 margin-left: 210px;
+margin-top: 10px;
 }
 
-
-
 .data-calendar{
-@include pre(4);
 font-family: "lekton italic";
 font-size: 10px;
 line-height: 12px;
 font-weight: normal;
 text-transform: uppercase;
 background-color: #00FFCE;
-position: absolute; 
-margin-top: -40px;
+position: absolute;
+margin-top: 20px;
+margin-left: 16px;
 
+}
+
+.luogo-calendar{
+font-family: "lekton italic";
+font-size: 10px;
+line-height: 12px;
+font-weight: normal;
+text-transform: uppercase;
+background-color: #00FFCE;
+position: absolute;
+margin-top: 50px;
+margin-left: 16px;
 
 }
 
-.anonima{
-text-decoration: underline;
+.img{
+background: url('../images/img1.png') no-repeat left top;
+width: 401px;
+height: 309px;
 
 }
+
 .intro-calendar{
 font-family: "libertine italic";
 font-size: 12px;
 line-height: 15px;
 font-weight: normal;
-position: relative; 
-margin-right: 15px;
-margin-top: -125px;
 width: 189px;
 position: relative;
 float: right;
 text-indent: 2px;
+padding: 5px;
 }
-.intro2-calendar{
-font-family: "libertine italic";
-font-size: 12px;
-line-height: 15px;
-font-weight: normal;
-position: relative; 
-margin-right: 15px;
-margin-top: -45px;
-width: 189px;
-position: relative;
-float: right;
-text-indent: 2px;
-}
+
 
 .barra-text-calendar{
 background: url('../images/barra_text.png') no-repeat top left;
