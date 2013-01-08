@@ -1,2 +1,5 @@
-
+*.css
+.sass-cache
+compass_app_log.txt
+fire_app_log.txt
 *.espressostorage
