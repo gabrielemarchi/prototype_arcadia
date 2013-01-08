@@ -44,80 +44,144 @@
 		@include pre(3);
 		list-style: none;
 		padding: 0 !important;
-
+		
 			li{
-				height: 49px;
+				&:hover{
+					margin: 0 !important;
+					padding: 0 !important;
+				}
 				position: relative;
 				display: inline-block;
-				margin-right: 4px;
-				margin-bottom: 4px;
-				.container{
-					border: 2px solid black;
-					outline: 1px solid white;
-					background-color: white;
-					position: relative;
-					float: left;
-					padding: 1px 8px 0px 8px;
 				
-					.corner-left{
-						position: absolute;
-						background: url('../images/people_corner_left.png') top left no-repeat;
+				
+				a{
+					height: 49px;
+					display: block;
+					position: relative;
+					margin-right: 4px;
+					margin-bottom: 4px;
+					text-decoration: none;
+					
+					.container{
+						border: 2px solid black;
+						outline: 1px solid white;
 						background-color: white;
-						width: 7px;
-						height: 47px;
-						margin-left: -8px;
-						margin-top: -1px;
-					}
-					.corner-right{
-						float: right;
-						background: url('../images/people_corner_right.png') top left no-repeat;
-						background-color: white;
-						width: 7px;
-						height: 47px;
-						margin-right: -8px;
-						margin-top: -1px;
-					}
-					h3{
-						margin: 0 !important;
-						padding: 0 !important;
-						font-family: "libertine italic";
-						font-size: 23px;
-						line-height: 27px;
-						text-decoration: underline;
-						font-weight: normal;
-						color: black;
-					}
-						
-					h4{
-						margin: 0 !important;
-						padding: 0 !important;
-						font-family: "lekton italic";
-						font-size: 10px;
-						font-weight: normal;
-						text-transform: uppercase;
-						color: black;
+						position: relative;
+						float: left;
+						padding: 1px 8px 0px 8px;
+					
+						.corner-left{
+							position: absolute;
+							background: url('../images/people_corner_left.png') top left no-repeat;
+							background-color: white;
+							width: 7px;
+							height: 47px;
+							margin-left: -8px;
+							margin-top: -1px;
+						}
+						.corner-right{
+							float: right;
+							background: url('../images/people_corner_right.png') top left no-repeat;
+							background-color: white;
+							width: 7px;
+							height: 47px;
+							margin-right: -8px;
+							margin-top: -1px;
+						}
+						h3{
+							margin: 0 !important;
+							padding: 0 !important;
+							font-family: "libertine italic";
+							font-size: 23px;
+							line-height: 27px;
+							text-decoration: underline;
+							font-weight: normal;
+							color: black;
+						}
+							
+						h4{
+							margin: 0 !important;
+							padding: 0 !important;
+							font-family: "lekton italic";
+							font-size: 10px;
+							font-weight: normal;
+							text-transform: uppercase;
+							color: black;
+						}
 					}
 				}
 			}
 		
-			li:visited{
+			a:visited{
+				
 				.container{
 					border: 2px solid #00FFCE;
 					.corner-left{
-						background: url('../images/people_corner_left_hover.png') top left no-repeat;
+						background-image: url('../images/people_corner_left_hover.png') !important;
 					}
 					.corner-right{
-						background: url('../images/people_corner_right_hover.png') top left no-repeat;
+						background-image: url('../images/people_corner_right_hover.png') !important;
 					}
 					h3, h4{
 						color: #00FFCE;
 					}
 				}
+				&:hover{
+					.container{
+						border: 2px solid black;
+						outline: 1px solid white;
+						background-color: white;
+						position: relative;
+						float: left;
+						padding: 1px 8px 0px 8px;
+					
+						.corner-left{
+							position: absolute;
+							background: white url('../images/people_corner_left.png') top left no-repeat;
+							
+							width: 7px;
+							height: 47px;
+							margin-left: -8px;
+							margin-top: -1px;
+						}
+						.corner-right{
+							float: right;
+							background: white url('../images/people_corner_right.png') top left no-repeat;
+							
+						
+							width: 7px;
+							height: 47px;
+							margin-right: -8px;
+							margin-top: -1px;
+						}
+						h3{
+							margin: 0 !important;
+							padding: 0 !important;
+							font-family: "libertine italic";
+							font-size: 23px;
+							line-height: 27px;
+							text-decoration: underline;
+							font-weight: normal;
+							color: black;
+						}
+							
+						h4{
+							margin: 0 !important;
+							padding: 0 !important;
+							font-family: "lekton italic";
+							font-size: 10px;
+							font-weight: normal;
+							text-transform: uppercase;
+							color: black;
+						}
+					}
+				}
 			}
-			li:hover{
+			a:hover{
 				position: relative;
 				height: 49px;
 				margin: 0 !important;
+				
 				margin-right: 3px !important;
 				
 								
