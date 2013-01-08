@@ -79,7 +79,6 @@ a.bottone-generico:hover{
 	}
 }
 
-// active
 a.bottone-generico:active{
 	margin-right: 1px;
 	.container{
@@ -90,7 +89,7 @@ a.bottone-generico:active{
 		display: none;
 	}
 }
-// chiusura
+
 
 
 #right-column{
@@ -123,7 +122,7 @@ a.bottone-generico:active{
 		text-indent: 60px;
 		@include span-columns(11,16);
 		@include pre(3);
-		background: url('text_indent.png') top left no-repeat;
+		background: image-url('text_indent.png') top left no-repeat;
 	}
 	.people{
 		@include span-columns(12,16);
