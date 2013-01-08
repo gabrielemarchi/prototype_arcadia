@@ -93,22 +93,87 @@
   font-weight: normal;
 }
 /* line 115, ../../sass/partials/post.scss */
-#post .read-more {
+#post a.bottone-generico {
+  display: inline-block;
   position: relative;
-  background: url("../images/read-more.png") no-repeat left top;
-  width: 108px;
-  height: 46px;
-  margin-top: -20px;
-  margin-left: 147px;
+  margin-right: 8px;
 }
-/* line 123, ../../sass/partials/post.scss */
-#post .read-more h1 {
-  font-family: "libertine black italic";
+/* line 119, ../../sass/partials/post.scss */
+#post a.bottone-generico .container {
+  display: inline-block;
+  border: 2px solid black;
+  outline: 1px solid white;
+  background-color: white;
+  position: relative;
+  margin-top: -7px;
+  margin-left: -7px;
+}
+/* line 127, ../../sass/partials/post.scss */
+#post a.bottone-generico .container .corner-left {
+  position: absolute;
+  background: url('../../images/bottone_corner_left.png?1357667422') top left no-repeat;
+  background-color: white;
+  width: 7px;
+  height: 33px;
+}
+/* line 134, ../../sass/partials/post.scss */
+#post a.bottone-generico .container .corner-right {
+  background: url('../../images/bottone_corner_right.png?1357667422') top left no-repeat;
+  background-color: white;
+  width: 7px;
+  height: 33px;
+}
+/* line 140, ../../sass/partials/post.scss */
+#post a.bottone-generico .container h3 {
+  font-family: "libertine italic";
   font-size: 14px;
   line-height: 18px;
-  font-weight: normal;
-  position: absolute;
-  margin-left: 20px;
   text-decoration: underline;
-  background-color: #00FFCE;
+  font-weight: normal;
+  color: black;
+  padding: 0 !important;
+  margin: 5px 16px 0 16px;
+}
+/* line 152, ../../sass/partials/post.scss */
+#post a.bottone-generico .left_hover {
+  position: absolute;
+  bottom: 0;
+  left: -8px;
+  width: 8px;
+  height: 8px;
+  background: url('../../images/bottone_pezzo_sx.png?1357667422') top left no-repeat;
+}
+/* line 160, ../../sass/partials/post.scss */
+#post a.bottone-generico .center_hover {
+  position: relative;
+  float: left;
+  height: 8px;
+  width: 100%;
+  background: url('../../images/bottone_pezzo_center.png?1357667422') bottom left repeat-x;
+}
+/* line 167, ../../sass/partials/post.scss */
+#post a.bottone-generico .right_hover {
+  position: absolute;
+  top: -7px;
+  right: -8px;
+  width: 8px;
+  height: 46px;
+  background: url('../../images/bottone_pezzo_dx.png?1357667422') top left no-repeat;
+}
+/* line 178, ../../sass/partials/post.scss */
+#post a.bottone-generico:hover h3 {
+  background: #00FFCE;
+}
+/* line 183, ../../sass/partials/post.scss */
+#post a.bottone-generico:active {
+  margin-right: 1px;
+}
+/* line 185, ../../sass/partials/post.scss */
+#post a.bottone-generico:active .container {
+  margin-top: 0;
+  margin-left: 0;
+}
+/* line 189, ../../sass/partials/post.scss */
+#post a.bottone-generico:active .left_hover, #post a.bottone-generico:active .center_hover, #post a.bottone-generico:active .right_hover {
+  display: none;
 }
