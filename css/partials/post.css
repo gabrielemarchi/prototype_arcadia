@@ -1,0 +1,139 @@
+/* line 7, ../../sass/partials/post.scss */
+#post .img {
+  background: url("../images/img1.png") no-repeat left top;
+  width: 401px;
+  height: 309px;
+  position: absolute;
+}
+/* line 16, ../../sass/partials/post.scss */
+#post .content-data {
+  margin-left: 25.42373%;
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  width: 167px;
+  height: 29px;
+}
+/* line 25, ../../sass/partials/post.scss */
+#post .content-data h1 {
+  font-family: "lekton italic";
+  font-size: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: -20px;
+  margin-left: 33px;
+}
+/* line 37, ../../sass/partials/post.scss */
+#post .content-data .left-corner {
+  background: url("../images/btn_corner_left_white.png") no-repeat left top;
+  width: 6px;
+  height: 27px;
+}
+/* line 43, ../../sass/partials/post.scss */
+#post .content-data .right-corner {
+  background: url("../images/btn_corner_right_white.png") no-repeat left top;
+  width: 6px;
+  height: 27px;
+  float: right;
+  position: relative;
+  margin-top: -26px;
+}
+/* line 58, ../../sass/partials/post.scss */
+#post .content-news {
+  margin-left: 25.42373%;
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  width: 282px;
+  height: 146px;
+  float: left;
+  margin-top: 10px;
+}
+/* line 68, ../../sass/partials/post.scss */
+#post .content-news h1 {
+  font-family: "lato black";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+/* line 79, ../../sass/partials/post.scss */
+#post .content-news .autore {
+  font-family: "lato regular italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+}
+/* line 89, ../../sass/partials/post.scss */
+#post .content-news .data {
+  font-family: "lato regular italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+  background-color: #00FFCE;
+}
+/* line 100, ../../sass/partials/post.scss */
+#post .content-news .dove {
+  font-family: "lato black italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+}
+/* line 111, ../../sass/partials/post.scss */
+#post .content-news .indirizzo {
+  font-family: "lato regular italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+}
+/* line 120, ../../sass/partials/post.scss */
+#post .content-news .left-corner {
+  background: url("../images/btn_left_corner_news.png") no-repeat left top;
+  width: 6px;
+  height: 145px;
+}
+/* line 126, ../../sass/partials/post.scss */
+#post .content-news .right-corner {
+  background: url("../images/btn_right_corner_news .png") no-repeat left top;
+  width: 6px;
+  height: 145px;
+  float: right;
+  position: relative;
+  margin-top: -144px;
+}
+/* line 138, ../../sass/partials/post.scss */
+#post .read-more {
+  position: relative;
+  background: url("../images/read-more.png") no-repeat left top;
+  width: 108px;
+  height: 46px;
+  margin-top: -20px;
+  margin-left: 147px;
+}
+/* line 146, ../../sass/partials/post.scss */
+#post .read-more h1 {
+  font-family: "libertine black italic";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  position: absolute;
+  margin-left: 20px;
+  text-decoration: underline;
+  background-color: #00FFCE;
+}

@@ -1,0 +1,1124 @@
+/* line 6, ../sass/partials/home.scss */
+#left-column h1 {
+  width: 17.72152%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline;
+}
+/* line 10, ../sass/partials/home.scss */
+#left-column .logo {
+  background: url("../images/logo.png") no-repeat left top;
+  width: 173px;
+  height: 174px;
+}
+
+/* line 15, ../sass/partials/home.scss */
+#right-column {
+  margin-top: -140px;
+}
+/* line 18, ../sass/partials/home.scss */
+#right-column .intro {
+  font-family: "libertine italic";
+  font-size: 23px;
+  line-height: 28px;
+  color: black;
+  width: 68.35443%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline;
+  margin-left: 25.42373%;
+}
+/* line 26, ../sass/partials/home.scss */
+#right-column .intro .first-word {
+  font-family: "libertine black italic";
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+/* line 35, ../sass/partials/home.scss */
+#right-column #bottoni {
+  margin-left: 25.42373%;
+}
+/* line 39, ../sass/partials/home.scss */
+#right-column nav.breadcrumb {
+  font-family: "lato black italic";
+  font-size: 16px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #00FFCE;
+  margin-top: -37px;
+}
+/* line 47, ../sass/partials/home.scss */
+#right-column nav.breadcrumb a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #00FFCE;
+}
+/* line 54, ../sass/partials/home.scss */
+#right-column nav.breadcrumb a:hover,
+#right-column nav.breadcrumb a:focus {
+  color: #24CDA8;
+}
+/* line 64, ../sass/partials/home.scss */
+#right-column .description h1 {
+  font-family: "lato regular";
+  text-transform: lowercase;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333333;
+  position: absolute;
+  margin-top: 530px !important;
+  margin-left: 240px;
+}
+/* line 80, ../sass/partials/home.scss */
+#right-column .description2 h1 {
+  font-family: "lato regular";
+  text-transform: lowercase;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333333;
+  position: absolute;
+  margin-top: 530px !important;
+  margin-left: 460px;
+}
+/* line 96, ../sass/partials/home.scss */
+#right-column .description3 h1 {
+  font-family: "lato regular";
+  text-transform: lowercase;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333333;
+  position: absolute;
+  margin-top: 530px !important;
+  margin-left: 440px;
+}
+/* line 109, ../sass/partials/home.scss */
+#right-column .bottone-black {
+  position: relative;
+  background: #000000 !important;
+  width: 200px;
+  height: 46px;
+  float: left;
+  margin-top: 108px;
+}
+/* line 117, ../sass/partials/home.scss */
+#right-column .bottone-black .left-corner {
+  background: url("../images/btn_corner_left.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+}
+/* line 123, ../sass/partials/home.scss */
+#right-column .bottone-black .right-corner {
+  background: url("../images/btn_corner_right.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+  float: right;
+  position: relative;
+  margin-top: -46px;
+}
+/* line 133, ../sass/partials/home.scss */
+#right-column .bottone-black2 {
+  position: relative;
+  background: #000000 !important;
+  width: 200px;
+  height: 46px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 108px;
+}
+/* line 142, ../sass/partials/home.scss */
+#right-column .bottone-black2 .left-corner {
+  background: url("../images/btn_corner_left.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+}
+/* line 149, ../sass/partials/home.scss */
+#right-column .bottone-black2 .right-corner {
+  background: url("../images/btn_corner_right.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+  float: right;
+  position: relative;
+  margin-top: -46px;
+}
+/* line 159, ../sass/partials/home.scss */
+#right-column .bottone-black3 {
+  position: relative;
+  background: #000000 !important;
+  width: 200px;
+  height: 46px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 108px;
+}
+/* line 168, ../sass/partials/home.scss */
+#right-column .bottone-black3 .left-corner {
+  background: url("../images/btn_corner_left.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+}
+/* line 174, ../sass/partials/home.scss */
+#right-column .bottone-black3 .right-corner {
+  background: url("../images/btn_corner_right.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+  float: right;
+  position: relative;
+  margin-top: -46px;
+}
+
+/* line 6, ../sass/partials/bestiarum.scss */
+#left-column h1 {
+  width: 17.72152%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline;
+}
+
+/* line 12, ../sass/partials/bestiarum.scss */
+#right-column h1 {
+  font-family: "lato bold italic";
+  font-size: 55px;
+  line-height: 66px;
+  color: black;
+  text-transform: uppercase;
+  width: 68.35443%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline;
+  margin-left: 25.42373%;
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+}
+/* line 22, ../sass/partials/bestiarum.scss */
+#right-column h1 .subtitle {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: none;
+}
+/* line 32, ../sass/partials/bestiarum.scss */
+#right-column .intro-pagine-interne {
+  font-family: "libertine italic";
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  text-indent: 60px;
+  width: 68.35443%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline;
+  margin-left: 25.42373%;
+  background: url("text_indent.png") top left no-repeat;
+}
+/* line 42, ../sass/partials/bestiarum.scss */
+#right-column .people {
+  width: 74.68354%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline;
+  margin-left: 25.42373%;
+  list-style: none;
+  padding: 0 !important;
+}
+/* line 48, ../sass/partials/bestiarum.scss */
+#right-column .people li {
+  height: 49px;
+  position: relative;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+/* line 54, ../sass/partials/bestiarum.scss */
+#right-column .people li .container {
+  border: 2px solid black;
+  outline: 1px solid white;
+  background-color: white;
+  position: relative;
+  float: left;
+  padding: 1px 8px 0px 8px;
+}
+/* line 62, ../sass/partials/bestiarum.scss */
+#right-column .people li .container .corner-left {
+  position: absolute;
+  background: url("../images/people_corner_left.png") top left no-repeat;
+  background-color: white;
+  width: 7px;
+  height: 47px;
+  margin-left: -8px;
+  margin-top: -1px;
+}
+/* line 71, ../sass/partials/bestiarum.scss */
+#right-column .people li .container .corner-right {
+  float: right;
+  background: url("../images/people_corner_right.png") top left no-repeat;
+  background-color: white;
+  width: 7px;
+  height: 47px;
+  margin-right: -8px;
+  margin-top: -1px;
+}
+/* line 80, ../sass/partials/bestiarum.scss */
+#right-column .people li .container h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "libertine italic";
+  font-size: 23px;
+  line-height: 27px;
+  text-decoration: underline;
+  font-weight: normal;
+  color: black;
+}
+/* line 91, ../sass/partials/bestiarum.scss */
+#right-column .people li .container h4 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "lekton italic";
+  font-size: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: black;
+}
+/* line 104, ../sass/partials/bestiarum.scss */
+#right-column .people li:visited .container {
+  border: 2px solid #00FFCE;
+}
+/* line 106, ../sass/partials/bestiarum.scss */
+#right-column .people li:visited .container .corner-left {
+  background: url("../images/people_corner_left_hover.png") top left no-repeat;
+}
+/* line 109, ../sass/partials/bestiarum.scss */
+#right-column .people li:visited .container .corner-right {
+  background: url("../images/people_corner_right_hover.png") top left no-repeat;
+}
+/* line 112, ../sass/partials/bestiarum.scss */
+#right-column .people li:visited .container h3, #right-column .people li:visited .container h4 {
+  color: #00FFCE;
+}
+/* line 117, ../sass/partials/bestiarum.scss */
+#right-column .people li:hover {
+  position: relative;
+  height: 49px;
+  margin: 0 !important;
+  margin-right: 3px !important;
+}
+/* line 124, ../sass/partials/bestiarum.scss */
+#right-column .people li:hover .left_hover {
+  position: absolute;
+  bottom: 1px;
+  left: -12px;
+  width: 12px;
+  height: 12px;
+  background: url("../images/left_hover.png") top left no-repeat;
+}
+/* line 132, ../sass/partials/bestiarum.scss */
+#right-column .people li:hover .center_hover {
+  position: relative;
+  float: left;
+  height: 12px;
+  width: 97%;
+  background: url("../images/center_hover.png") bottom left repeat-x;
+}
+/* line 140, ../sass/partials/bestiarum.scss */
+#right-column .people li:hover .right_hover {
+  position: absolute;
+  top: -15px;
+  margin-right: 6px;
+  right: -6px;
+  width: 12px;
+  height: 63px;
+  background: url("../images/right_hover.png") top left no-repeat;
+}
+/* line 149, ../sass/partials/bestiarum.scss */
+#right-column .people li:hover .container {
+  margin-top: -15px;
+  margin-left: -11px;
+  margin-right: 12px;
+  position: relative;
+  float: left;
+}
+/* line 155, ../sass/partials/bestiarum.scss */
+#right-column .people li:hover .container h3 {
+  background-color: #00FFCE;
+}
+
+/* line 6, ../sass/partials/bottoni.scss */
+#bottone {
+  margin-left: 25.42373%;
+}
+
+/* line 12, ../sass/partials/bottoni.scss */
+nav.breadcrumb {
+  font-family: "lato black italic";
+  font-size: 16px;
+  line-height: 27px;
+  color: black;
+  text-transform: uppercase;
+  color: #00FFCE;
+  margin-top: -37px;
+}
+
+/* line 21, ../sass/partials/bottoni.scss */
+nav.breadcrumb a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #00FFCE;
+}
+
+/* line 28, ../sass/partials/bottoni.scss */
+nav.breadcrumb a:hover,
+nav.breadcrumb a:focus {
+  color: #24CDA8;
+}
+
+/* line 36, ../sass/partials/bottoni.scss */
+#testo-bottone h1 {
+  font-family: "lato regular";
+  text-transform: lowercase;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333333;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+/* line 50, ../sass/partials/bottoni.scss */
+.asterisco-testo {
+  background: url("../images/asterisco.png") no-repeat left top;
+  width: 14px;
+  height: 13px;
+  position: absolute;
+  margin-top: 50px;
+}
+
+/* line 59, ../sass/partials/bottoni.scss */
+.bottone-nero {
+  position: relative;
+  background: #000000 !important;
+  width: 260px;
+  height: 46px;
+  float: left;
+  margin-top: 108px;
+}
+/* line 67, ../sass/partials/bottoni.scss */
+.bottone-nero .left-corner {
+  background: url("../images/btn_corner_left.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+}
+/* line 73, ../sass/partials/bottoni.scss */
+.bottone-nero .right-corner {
+  background: url("../images/btn_corner_right.png") no-repeat left top;
+  width: 7px;
+  height: 46px;
+  float: right;
+  position: relative;
+  margin-top: -46px;
+}
+
+/* line 7, ../sass/partials/post.scss */
+#post .img {
+  background: url("../images/img1.png") no-repeat left top;
+  width: 401px;
+  height: 309px;
+  position: absolute;
+}
+/* line 16, ../sass/partials/post.scss */
+#post .content-data {
+  margin-left: 25.42373%;
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  width: 167px;
+  height: 29px;
+}
+/* line 25, ../sass/partials/post.scss */
+#post .content-data h1 {
+  font-family: "lekton italic";
+  font-size: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: -20px;
+  margin-left: 33px;
+}
+/* line 37, ../sass/partials/post.scss */
+#post .content-data .left-corner {
+  background: url("../images/btn_corner_left_white.png") no-repeat left top;
+  width: 6px;
+  height: 27px;
+}
+/* line 43, ../sass/partials/post.scss */
+#post .content-data .right-corner {
+  background: url("../images/btn_corner_right_white.png") no-repeat left top;
+  width: 6px;
+  height: 27px;
+  float: right;
+  position: relative;
+  margin-top: -26px;
+}
+/* line 58, ../sass/partials/post.scss */
+#post .content-news {
+  margin-left: 25.42373%;
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  width: 282px;
+  height: 146px;
+  float: left;
+  margin-top: 10px;
+}
+/* line 68, ../sass/partials/post.scss */
+#post .content-news h1 {
+  font-family: "lato black";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+/* line 79, ../sass/partials/post.scss */
+#post .content-news .autore {
+  font-family: "lato regular italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+}
+/* line 89, ../sass/partials/post.scss */
+#post .content-news .data {
+  font-family: "lato regular italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+  background-color: #00FFCE;
+}
+/* line 100, ../sass/partials/post.scss */
+#post .content-news .dove {
+  font-family: "lato black italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+}
+/* line 111, ../sass/partials/post.scss */
+#post .content-news .indirizzo {
+  font-family: "lato regular italic";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+  position: relative;
+  margin-top: -130px;
+}
+/* line 120, ../sass/partials/post.scss */
+#post .content-news .left-corner {
+  background: url("../images/btn_left_corner_news.png") no-repeat left top;
+  width: 6px;
+  height: 145px;
+}
+/* line 126, ../sass/partials/post.scss */
+#post .content-news .right-corner {
+  background: url("../images/btn_right_corner_news .png") no-repeat left top;
+  width: 6px;
+  height: 145px;
+  float: right;
+  position: relative;
+  margin-top: -144px;
+}
+/* line 138, ../sass/partials/post.scss */
+#post .read-more {
+  position: relative;
+  background: url("../images/read-more.png") no-repeat left top;
+  width: 108px;
+  height: 46px;
+  margin-top: -20px;
+  margin-left: 147px;
+}
+/* line 146, ../sass/partials/post.scss */
+#post .read-more h1 {
+  font-family: "libertine black italic";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  position: absolute;
+  margin-left: 20px;
+  text-decoration: underline;
+  background-color: #00FFCE;
+}
+
+/* line 3, ../sass/partials/list.scss */
+nav[role="navigation"] ul {
+  margin-left: 0%;
+  width: 25%;
+  list-style: none;
+}
+
+/* line 9, ../sass/partials/list.scss */
+nav[role="navigation"] ul li a {
+  display: block;
+  padding: 5px 15px;
+  font-family: "libertine italic";
+  font-size: 23px;
+  line-height: 1;
+  font-weight: normal;
+  color: black;
+}
+
+/* line 21, ../sass/partials/list.scss */
+nav[role="navigation"] ul li a:focus,
+nav[role="navigation"] ul li a:hover {
+  background: #00FFCE;
+}
+
+/* line 25, ../sass/partials/list.scss */
+nav[role="navigation"] ul li a:active {
+  background: #ddd;
+}
+
+/* line 29, ../sass/partials/list.scss */
+.data {
+  font-family: "lekton italic";
+  font-size: 10px;
+  font-weight: normal;
+  color: black;
+  margin-left: 20px;
+}
+
+/* line 5, ../sass/partials/next.scss */
+.content-next {
+  margin-left: 25.42373%;
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  width: 636px;
+  height: 138px;
+  float: left;
+  margin-top: 50px;
+}
+/* line 15, ../sass/partials/next.scss */
+.content-next h1 {
+  font-family: "libertine italic";
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 20px;
+  text-decoration: underline;
+  margin-left: 210px;
+}
+/* line 28, ../sass/partials/next.scss */
+.content-next .data-next {
+  font-family: "lekton italic";
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: -120px;
+  margin-left: 20px;
+  float: left;
+  background-color: #00FFCE;
+}
+/* line 42, ../sass/partials/next.scss */
+.content-next .luogo-next {
+  font-family: "lekton italic";
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: -92px;
+  margin-left: 20px;
+  float: left;
+  background-color: #00FFCE;
+}
+/* line 56, ../sass/partials/next.scss */
+.content-next .img {
+  background: url("../images/img1.png") no-repeat left top;
+  width: 401px;
+  height: 309px;
+}
+/* line 63, ../sass/partials/next.scss */
+.content-next .intro {
+  font-family: "libertine italic";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: normal;
+  position: relative;
+  margin-right: 15px;
+  margin-top: -140px;
+  width: 189px;
+  position: relative;
+  float: right;
+  text-indent: 2px;
+}
+/* line 76, ../sass/partials/next.scss */
+.content-next .intro2 {
+  font-family: "libertine italic";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: normal;
+  position: relative;
+  margin-right: 15px;
+  margin-top: -60px;
+  width: 189px;
+  position: relative;
+  float: right;
+  text-indent: 2px;
+}
+/* line 89, ../sass/partials/next.scss */
+.content-next .barra-text {
+  background: url("../images/barra_text.png") no-repeat top left;
+  width: 27px;
+  height: 1px;
+  position: relative;
+  float: left;
+  margin-top: 8px;
+}
+/* line 104, ../sass/partials/next.scss */
+.content-next .left-corner {
+  background: url("../images/btn_left_corner_next.png") no-repeat left top;
+  width: 6px;
+  height: 136px;
+}
+/* line 110, ../sass/partials/next.scss */
+.content-next .right-corner {
+  background: url("../images/btn_right_corner_news .png") no-repeat left top;
+  width: 6px;
+  height: 136px;
+  float: right;
+  position: relative;
+  margin-top: -134px;
+}
+
+/* line 122, ../sass/partials/next.scss */
+.next {
+  position: relative;
+  background: url("../images/cont-next.png") no-repeat left top;
+  width: 150px;
+  height: 60px;
+  margin-top: -20px;
+  margin-left: 230px;
+}
+/* line 130, ../sass/partials/next.scss */
+.next h1 {
+  font-family: "libertine black italic";
+  font-size: 30px;
+  line-height: 23px;
+  font-weight: normal;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-decoration: underline;
+  background-color: #00FFCE;
+}
+
+/* line 148, ../sass/partials/next.scss */
+.content-post {
+  margin-left: 25.42373%;
+  position: relative;
+  width: 636px;
+  height: 138px;
+  float: left;
+  margin-top: 50px;
+}
+/* line 156, ../sass/partials/next.scss */
+.content-post .data-post {
+  font-family: "lekton italic";
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+/* line 165, ../sass/partials/next.scss */
+.content-post .article {
+  width: 17.72152%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline;
+  width: 210px;
+  font-family: "lato regular";
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: normal;
+}
+/* line 176, ../sass/partials/next.scss */
+.content-post h1 {
+  font-family: "lato black";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  color: black;
+}
+
+/* line 3, ../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul {
+  margin-left: 0%;
+  width: 25%;
+  list-style: none;
+}
+
+/* line 9, ../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul li a {
+  display: block;
+  padding: 5px 15px;
+  font-family: "libertine italic";
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  color: black;
+}
+
+/* line 21, ../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul li a:focus,
+nav[role="navigation_menu"] ul li a:hover {
+  background: #00FFCE;
+}
+
+/* line 25, ../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul li a:active {
+  background: #ddd;
+}
+
+/* line 4, ../sass/partials/calendar.scss */
+.content-calendar {
+  margin-left: 25.42373%;
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  width: 636px;
+  height: 138px;
+  float: left;
+}
+/* line 13, ../sass/partials/calendar.scss */
+.content-calendar .left-corner {
+  background: url("../images/btn_left_corner_next.png") no-repeat left top;
+  width: 6px;
+  height: 136px;
+}
+/* line 19, ../sass/partials/calendar.scss */
+.content-calendar .right-corner {
+  background: url("../images/btn_right_corner_news .png") no-repeat left top;
+  width: 6px;
+  height: 136px;
+  float: right;
+  position: relative;
+  margin-top: -134px;
+}
+/* line 29, ../sass/partials/calendar.scss */
+.content-calendar .foto {
+  background: url("../images/foto_prova.png") no-repeat;
+  width: 106px;
+  height: 106px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -120px;
+}
+/* line 40, ../sass/partials/calendar.scss */
+.content-calendar h1 {
+  font-family: "libertine italic";
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 20px;
+  text-decoration: underline;
+  margin-left: 210px;
+}
+/* line 55, ../sass/partials/calendar.scss */
+.content-calendar .data-calendar {
+  margin-left: 33.89831%;
+  font-family: "lekton italic";
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #00FFCE;
+  position: absolute;
+  margin-top: -40px;
+}
+/* line 69, ../sass/partials/calendar.scss */
+.content-calendar .anonima {
+  text-decoration: underline;
+}
+/* line 73, ../sass/partials/calendar.scss */
+.content-calendar .intro-calendar {
+  font-family: "libertine italic";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: normal;
+  position: relative;
+  margin-right: 15px;
+  margin-top: -125px;
+  width: 189px;
+  position: relative;
+  float: right;
+  text-indent: 2px;
+}
+/* line 86, ../sass/partials/calendar.scss */
+.content-calendar .intro2-calendar {
+  font-family: "libertine italic";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: normal;
+  position: relative;
+  margin-right: 15px;
+  margin-top: -45px;
+  width: 189px;
+  position: relative;
+  float: right;
+  text-indent: 2px;
+}
+/* line 100, ../sass/partials/calendar.scss */
+.content-calendar .barra-text-calendar {
+  background: url("../images/barra_text.png") no-repeat top left;
+  width: 27px;
+  height: 1px;
+  position: relative;
+  float: left;
+  margin-top: 8px;
+}
+
+/* line 114, ../sass/partials/calendar.scss */
+.accordion section h2 a {
+  margin-left: 25.42373%;
+  font-family: "libertine italic";
+  padding: 4px 10px;
+  display: block;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 23px;
+  border: 1px solid black;
+  width: 135px;
+  color: black;
+  text-decoration: none;
+}
+
+/*set style of closed slide*/
+/* line 130, ../sass/partials/calendar.scss */
+.accordion section {
+  float: left;
+  overflow: hidden;
+  color: #333;
+  cursor: pointer;
+  margin: 3px;
+}
+
+/* line 142, ../sass/partials/calendar.scss */
+.accordion section:after {
+  position: relative;
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+/*End General Accordion****************************************************************************/
+/*Horizontal Accordion *********************************************************************/
+/* line 152, ../sass/partials/calendar.scss */
+.horizontal section {
+  width: 5%;
+  height: 250px;
+  -moz-transition: width 0.2s ease-out;
+  -webkit-transition: width 0.2s ease-out;
+  -o-transition: width 0.2s ease-out;
+  -ms-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+}
+
+/*Position the number of the slide*/
+/* line 163, ../sass/partials/calendar.scss */
+.horizontal section:after {
+  top: 140px;
+  left: 15px;
+}
+
+/*Header of closed slide*/
+/* line 169, ../sass/partials/calendar.scss */
+.horizontal section h2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 240px;
+  position: relative;
+  left: -100px;
+  top: 85px;
+}
+
+/*On mouse over open slide*/
+/* line 182, ../sass/partials/calendar.scss */
+.horizontal :target {
+  width: 73%;
+  height: 230px;
+}
+
+/* line 186, ../sass/partials/calendar.scss */
+.horizontal :target h2 {
+  top: 0px;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/*End Horizontal Accordion *********************************************************************/
+/*Vertical Accordion *************************************************************************/
+/* line 197, ../sass/partials/calendar.scss */
+.vertical section {
+  width: 100%;
+  height: 40px;
+  -webkit-transition: height 0.2s ease-out;
+  -moz-transition: height 0.2s ease-out;
+  -o-transition: height 0.2s ease-out;
+  -ms-transition: height 0.2s ease-out;
+  transition: height 0.2s ease-out;
+}
+
+/*Set height of the slide*/
+/* line 207, ../sass/partials/calendar.scss */
+.vertical :target {
+  height: 250px;
+  width: 97%;
+}
+
+/* line 212, ../sass/partials/calendar.scss */
+.vertical section h2 {
+  position: relative;
+  left: 0;
+  top: -15px;
+}
+
+/*Set position of the number on the slide*/
+/* line 219, ../sass/partials/calendar.scss */
+.vertical section:after {
+  top: -60px;
+  left: 810px;
+}
+
+/* line 223, ../sass/partials/calendar.scss */
+.vertical section:target:after {
+  left: -9999px;
+}
+
+@font-face {
+  font-family: "lekton italic";
+  src: url('../fonts/lekton/lekton-italic-webfont.eot');
+  src: url('../fonts/lekton/lekton-italic-webfont.eot?#iefix') format('eot'), url('../fonts/lekton/lekton-italic-webfont.woff') format('woff'), url('../fonts/lekton/lekton-italic-webfont.ttf') format('truetype'), url('../fonts/lekton/lekton-italic-webfont.svg') format('svg');
+  font-weight: 400;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "libertine italic";
+  src: url('../fonts/linux libertine/linlibertine_it-4.2.6ro-webfont.eot');
+  src: url('../fonts/linux libertine/linlibertine_it-4.2.6ro-webfont.eot?#iefix') format('eot'), url('../fonts/linux libertine/linlibertine_it-4.2.6ro-webfont.woff') format('woff'), url('../fonts/linux libertine/linlibertine_it-4.2.6ro-webfont.ttf') format('truetype'), url('../fonts/linux libertine/linlibertine_it-4.2.6ro-webfont.svg') format('svg');
+  font-weight: 400;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "libertine black italic";
+  src: url('../fonts/linux libertine/linlibertine_bi-4.1.0ro-webfont.eot');
+  src: url('../fonts/linux libertine/linlibertine_bi-4.1.0ro-webfont.eot?#iefix') format('eot'), url('../fonts/linux libertine/linlibertine_bi-4.1.0ro-webfont.woff') format('woff'), url('../fonts/linux libertine/linlibertine_bi-4.1.0ro-webfont.ttf') format('truetype'), url('../fonts/linux libertine/linlibertine_bi-4.1.0ro-webfont.svg') format('svg');
+  font-weight: 900;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "lato regular";
+  src: url('../fonts/lato/lato-reg-webfont.eot');
+  src: url('../fonts/lato/lato-reg-webfont.eot?#iefix') format('eot'), url('../fonts/lato/lato-reg-webfont.woff') format('woff'), url('../fonts/lato/lato-reg-webfont.ttf') format('truetype'), url('../fonts/lato/lato-reg-webfont.svg') format('svg');
+  font-weight: 400;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "lato regular italic";
+  src: url('../fonts/lato/lato-regita-webfont.eot');
+  src: url('../fonts/lato/lato-regita-webfont.eot?#iefix') format('eot'), url('../fonts/lato/lato-regita-webfont.woff') format('woff'), url('../fonts/lato/lato-regita-webfont.ttf') format('truetype'), url('../fonts/lato/lato-regita-webfont.svg') format('svg');
+  font-weight: 400;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "lato bold italic";
+  src: url('../fonts/lato/lato-bolita-webfont.eot');
+  src: url('../fonts/lato/lato-bolita-webfont.eot?#iefix') format('eot'), url('../fonts/lato/lato-bolita-webfont.woff') format('woff'), url('../fonts/lato/lato-bolita-webfont.ttf') format('truetype'), url('../fonts/lato/lato-bolita-webfont.svg') format('svg');
+  font-weight: 700;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "lato black";
+  src: url('../fonts/lato/lato-bla-webfont.eot');
+  src: url('../fonts/lato/lato-bla-webfont.eot?#iefix') format('eot'), url('../fonts/lato/lato-bla-webfont.woff') format('woff'), url('../fonts/lato/lato-bla-webfont.ttf') format('truetype'), url('../fonts/lato/lato-bla-webfont.svg') format('svg');
+  font-weight: 900;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "lato black italic";
+  src: url('../fonts/lato/lato-blaita-webfont.eot');
+  src: url('../fonts/lato/lato-blaita-webfont.eot?#iefix') format('eot'), url('../fonts/lato/lato-blaita-webfont.woff') format('woff'), url('../fonts/lato/lato-blaita-webfont.ttf') format('truetype'), url('../fonts/lato/lato-blaita-webfont.svg') format('svg');
+  font-weight: 900;
+  font-style: regular;
+}
+
+/* line 115, ../sass/screen.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #f5f5f5;
+}
+
+/* line 120, ../sass/screen.scss */
+.grid, #container {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(4.25532%, rgba(100, 100, 225, 0.25)), color-stop(4.25532%, rgba(0, 0, 0, 0)), color-stop(6.38298%, rgba(0, 0, 0, 0)), color-stop(6.38298%, rgba(100, 100, 225, 0.25)), color-stop(10.6383%, rgba(100, 100, 225, 0.25)), color-stop(10.6383%, rgba(0, 0, 0, 0)), color-stop(12.76596%, rgba(0, 0, 0, 0)), color-stop(12.76596%, rgba(100, 100, 225, 0.25)), color-stop(17.02128%, rgba(100, 100, 225, 0.25)), color-stop(17.02128%, rgba(0, 0, 0, 0)), color-stop(19.14894%, rgba(0, 0, 0, 0)), color-stop(19.14894%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(100, 100, 225, 0.25)), color-stop(29.78723%, rgba(100, 100, 225, 0.25)), color-stop(29.78723%, rgba(0, 0, 0, 0)), color-stop(31.91489%, rgba(0, 0, 0, 0)), color-stop(31.91489%, rgba(100, 100, 225, 0.25)), color-stop(36.17021%, rgba(100, 100, 225, 0.25)), color-stop(36.17021%, rgba(0, 0, 0, 0)), color-stop(38.29787%, rgba(0, 0, 0, 0)), color-stop(38.29787%, rgba(100, 100, 225, 0.25)), color-stop(42.55319%, rgba(100, 100, 225, 0.25)), color-stop(42.55319%, rgba(0, 0, 0, 0)), color-stop(44.68085%, rgba(0, 0, 0, 0)), color-stop(44.68085%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(100, 100, 225, 0.25)), color-stop(55.31915%, rgba(100, 100, 225, 0.25)), color-stop(55.31915%, rgba(0, 0, 0, 0)), color-stop(57.44681%, rgba(0, 0, 0, 0)), color-stop(57.44681%, rgba(100, 100, 225, 0.25)), color-stop(61.70213%, rgba(100, 100, 225, 0.25)), color-stop(61.70213%, rgba(0, 0, 0, 0)), color-stop(63.82979%, rgba(0, 0, 0, 0)), color-stop(63.82979%, rgba(100, 100, 225, 0.25)), color-stop(68.08511%, rgba(100, 100, 225, 0.25)), color-stop(68.08511%, rgba(0, 0, 0, 0)), color-stop(70.21277%, rgba(0, 0, 0, 0)), color-stop(70.21277%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(100, 100, 225, 0.25)), color-stop(80.85106%, rgba(100, 100, 225, 0.25)), color-stop(80.85106%, rgba(0, 0, 0, 0)), color-stop(82.97872%, rgba(0, 0, 0, 0)), color-stop(82.97872%, rgba(100, 100, 225, 0.25)), color-stop(87.23404%, rgba(100, 100, 225, 0.25)), color-stop(87.23404%, rgba(0, 0, 0, 0)), color-stop(89.3617%, rgba(0, 0, 0, 0)), color-stop(89.3617%, rgba(100, 100, 225, 0.25)), color-stop(93.61702%, rgba(100, 100, 225, 0.25)), color-stop(93.61702%, rgba(0, 0, 0, 0)), color-stop(95.74468%, rgba(0, 0, 0, 0)), color-stop(95.74468%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+  *zoom: 1;
+  max-width: 58.75em;
+  _width: 58.75em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.625em;
+  padding-right: 0.625em;
+  margin-left: 0;
+}
+/* line 38, ../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.grid:after, #container:after {
+  content: "";
+  display: table;
+  clear: both;
+}

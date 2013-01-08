@@ -1,0 +1,28 @@
+@import 'susy';
+
+nav[role="navigation_menu"] ul {
+    @include pre(0);
+	width: 25%;
+	list-style: none;
+	}
+	
+nav[role="navigation_menu"] ul li a {
+	display: block;
+	padding: 5px 15px;
+	font-family: "libertine italic";
+	font-size: 18px;
+    line-height: 22px;
+	font-weight: normal;
+	color: black;
+
+	}
+	
+nav[role="navigation_menu"] ul li a:focus,
+nav[role="navigation_menu"] ul li a:hover {
+	background: #00FFCE;
+	}
+	
+nav[role="navigation_menu"] ul li a:active {
+	background: #ddd;
+	}				
+	

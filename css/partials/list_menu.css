@@ -1,0 +1,28 @@
+/* line 3, ../../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul {
+  margin-left: 0%;
+  width: 25%;
+  list-style: none;
+}
+
+/* line 9, ../../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul li a {
+  display: block;
+  padding: 5px 15px;
+  font-family: "libertine italic";
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  color: black;
+}
+
+/* line 21, ../../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul li a:focus,
+nav[role="navigation_menu"] ul li a:hover {
+  background: #00FFCE;
+}
+
+/* line 25, ../../sass/partials/list_menu.scss */
+nav[role="navigation_menu"] ul li a:active {
+  background: #ddd;
+}
