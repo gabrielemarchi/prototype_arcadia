@@ -23,7 +23,7 @@
   position: relative;
   float: left;
 }
-/* line 40, ../../sass/partials/calendar.scss */
+/* line 38, ../../sass/partials/calendar.scss */
 .content-calendar h1 {
   font-family: "libertine italic";
   font-size: 23px;
@@ -35,7 +35,7 @@
   margin-left: 210px;
   margin-top: 10px;
 }
-/* line 52, ../../sass/partials/calendar.scss */
+/* line 50, ../../sass/partials/calendar.scss */
 .content-calendar .data-calendar {
   font-family: "lekton italic";
   font-size: 10px;
@@ -47,7 +47,7 @@
   margin-top: 20px;
   margin-left: 16px;
 }
-/* line 65, ../../sass/partials/calendar.scss */
+/* line 63, ../../sass/partials/calendar.scss */
 .content-calendar .luogo-calendar {
   font-family: "lekton italic";
   font-size: 10px;
@@ -59,13 +59,13 @@
   margin-top: 50px;
   margin-left: 16px;
 }
-/* line 78, ../../sass/partials/calendar.scss */
+/* line 76, ../../sass/partials/calendar.scss */
 .content-calendar .img {
   background: url("../images/img1.png") no-repeat left top;
   width: 401px;
   height: 309px;
 }
-/* line 85, ../../sass/partials/calendar.scss */
+/* line 83, ../../sass/partials/calendar.scss */
 .content-calendar .intro-calendar {
   font-family: "libertine italic";
   font-size: 12px;
@@ -77,7 +77,7 @@
   text-indent: 2px;
   padding: 5px;
 }
-/* line 98, ../../sass/partials/calendar.scss */
+/* line 96, ../../sass/partials/calendar.scss */
 .content-calendar .barra-text-calendar {
   background: url("../images/barra_text.png") no-repeat top left;
   width: 27px;
@@ -87,7 +87,7 @@
   margin-top: 8px;
 }
 
-/* line 112, ../../sass/partials/calendar.scss */
+/* line 110, ../../sass/partials/calendar.scss */
 .accordion section h2 a {
   margin-left: 25.42373%;
   font-family: "libertine italic";
@@ -103,7 +103,7 @@
 }
 
 /*set style of closed slide*/
-/* line 128, ../../sass/partials/calendar.scss */
+/* line 126, ../../sass/partials/calendar.scss */
 .accordion section {
   float: left;
   overflow: hidden;
@@ -112,7 +112,7 @@
   margin: 3px;
 }
 
-/* line 140, ../../sass/partials/calendar.scss */
+/* line 138, ../../sass/partials/calendar.scss */
 .accordion section:after {
   position: relative;
   font-size: 24px;
@@ -122,7 +122,7 @@
 
 /*End General Accordion****************************************************************************/
 /*Horizontal Accordion *********************************************************************/
-/* line 150, ../../sass/partials/calendar.scss */
+/* line 148, ../../sass/partials/calendar.scss */
 .horizontal section {
   width: 5%;
   height: 250px;
@@ -134,14 +134,14 @@
 }
 
 /*Position the number of the slide*/
-/* line 161, ../../sass/partials/calendar.scss */
+/* line 159, ../../sass/partials/calendar.scss */
 .horizontal section:after {
   top: 140px;
   left: 15px;
 }
 
 /*Header of closed slide*/
-/* line 167, ../../sass/partials/calendar.scss */
+/* line 165, ../../sass/partials/calendar.scss */
 .horizontal section h2 {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -155,13 +155,13 @@
 }
 
 /*On mouse over open slide*/
-/* line 180, ../../sass/partials/calendar.scss */
+/* line 178, ../../sass/partials/calendar.scss */
 .horizontal :target {
   width: 73%;
   height: 230px;
 }
 
-/* line 184, ../../sass/partials/calendar.scss */
+/* line 182, ../../sass/partials/calendar.scss */
 .horizontal :target h2 {
   top: 0px;
   left: 0;
@@ -174,7 +174,7 @@
 
 /*End Horizontal Accordion *********************************************************************/
 /*Vertical Accordion *************************************************************************/
-/* line 195, ../../sass/partials/calendar.scss */
+/* line 193, ../../sass/partials/calendar.scss */
 .vertical section {
   width: 100%;
   height: 40px;
@@ -186,13 +186,13 @@
 }
 
 /*Set height of the slide*/
-/* line 205, ../../sass/partials/calendar.scss */
+/* line 203, ../../sass/partials/calendar.scss */
 .vertical :target {
   height: 250px;
   width: 97%;
 }
 
-/* line 210, ../../sass/partials/calendar.scss */
+/* line 208, ../../sass/partials/calendar.scss */
 .vertical section h2 {
   position: relative;
   left: 0;
@@ -200,13 +200,13 @@
 }
 
 /*Set position of the number on the slide*/
-/* line 217, ../../sass/partials/calendar.scss */
+/* line 215, ../../sass/partials/calendar.scss */
 .vertical section:after {
   top: -60px;
   left: 810px;
 }
 
-/* line 221, ../../sass/partials/calendar.scss */
+/* line 219, ../../sass/partials/calendar.scss */
 .vertical section:target:after {
   left: -9999px;
 }
