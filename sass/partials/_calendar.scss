@@ -107,9 +107,64 @@ margin-top: 8px;
 
 }
 
+
+
+
+
+
 #vertabout{
 	.bottone-generico{
 		@include pre(3);
+		margin-top: 10px;
+		margin-bottom: -5px;
+		
+		
+		.container h3{
+		
+		font-size: 30px;
+		line-height: 29px;
+		
+		}
+	}
+}
+
+#vertservices{
+	.bottone-generico{
+		@include pre(3);
+		margin-top: 10px;
+		margin-bottom: -5px;
+		
+		
+		.container h3{
+		
+		font-size: 30px;
+		line-height: 29px;
+		
+		}
+	}
+}
+
+#vertblog{
+	.bottone-generico{
+		@include pre(3);
+		margin-top: 10px;
+		margin-bottom: -5px;
+		
+		
+		.container h3{
+		
+		font-size: 30px;
+		line-height: 29px;
+		
+		}
+	}
+}
+
+#vertportfolio{
+	.bottone-generico{
+		@include pre(3);
+		margin-top: 10px;
+		margin-bottom: -5px;
 		
 		
 		.container h3{
@@ -122,20 +177,9 @@ margin-top: 8px;
 }
 
 
-//.accordion section h2 a{
-//@include pre(3);
-//font-family: "libertine italic";
-//padding:4px 10px;
-//display:block; 
-//font-size:30px; 
-//font-weight:normal;
-//line-height: 23px;
-//border: 1px solid black;
-//width: 135px;
-//
-//color:black; 
-//text-decoration:none; 
-//}
+
+
+
 
 /*set style of closed slide*/
 .accordion section{ 
@@ -216,7 +260,7 @@ height:40px;
 }
 /*Set height of the slide*/
 .vertical :target{ 
-height:250px; 
+height:100%; 
 width:97%; 
 }
 
