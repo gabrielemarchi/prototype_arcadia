@@ -3,6 +3,14 @@
 #post-next{
 	.bottone-generico{
 		@include pre(3);
+		
+		
+		.container h3{
+		
+		font-size: 30px;
+		line-height: 29px;
+		
+		}
 	}
 }
 
