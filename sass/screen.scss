@@ -7,7 +7,8 @@ $grey: #666666;
 
 
 @import 'susy';
-@import "compass/css3/font-face";
+@import "compass";
+@import "partials/general";
 @import "partials/home";
 @import "partials/bestiarum";
 @import "partials/bottoni";
