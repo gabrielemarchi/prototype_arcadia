@@ -193,6 +193,23 @@ margin-top: 8px;
 	}
 }
 
+#vertportfolio2{
+	.bottone-generico{
+		@include pre(3);
+		margin-top: 10px;
+		margin-bottom: -5px;
+		
+		
+		.container h3{
+		
+		font-size: 30px;
+		line-height: 29px;
+		
+		}
+	}
+}
+
+
 
 
 
