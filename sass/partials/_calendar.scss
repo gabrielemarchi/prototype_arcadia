@@ -58,9 +58,10 @@ line-height: 12px;
 font-weight: normal;
 text-transform: uppercase;
 background-color: #00FFCE;
-position: absolute;
-margin-top: 20px;
-margin-left: 16px;
+position: relative;
+float: left;
+margin-top: 100px;
+margin-left: 90px;
 
 }
 
@@ -85,6 +86,18 @@ height: 309px;
 }
 
 .intro-calendar{
+font-family: "libertine italic";
+font-size: 12px;
+line-height: 15px;
+font-weight: normal;
+width: 189px;
+position: relative;
+float: right;
+text-indent: 2px;
+padding: 5px;
+}
+
+.intro2-calendar{
 font-family: "libertine italic";
 font-size: 12px;
 line-height: 15px;
