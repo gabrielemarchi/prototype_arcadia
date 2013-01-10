@@ -1,40 +1,32 @@
-@import 'susy';
-
-
 #post{
 
 
-.img{
-background: url('../images/img1.png') no-repeat left top;
-width: 401px;
-height: 309px;
-position: absolute;
-
-}
-
-
-.content-data{
-  @include pre(3);
-  position: relative; 
-  background: url('../images/post-data.png') no-repeat left top;
-  width: 167px;
-  height: 35px;
+  .img{
+  background: image-url('img1.png') no-repeat left top;
+  width: 401px;
+  height: 309px;
+  position: absolute;
   
-
-h1{
-font-family: "lekton italic";
-font-size: 10px;
-font-weight: normal;
-text-transform: uppercase;
-position: absolute; 
-margin-top: 10px;
-margin-left: 33px;
-
-
-}
-
-
-
+  }
+  
+  
+  .content-data{
+    @include pre(3);
+    position: relative; 
+    background: image-url('post-data.png') no-repeat left top;
+    width: 167px;
+    height: 35px;
+    
+  
+  h1{
+    font-family: "lekton italic";
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: absolute; 
+    margin-top: 10px;
+    margin-left: 33px;
+  }
 }
 
 .content-news{
@@ -48,7 +40,7 @@ margin-left: 33px;
   margin-top: 10px;
   
   .corner-up{
-  background: url('../images/post-text-up.png') top no-repeat ;
+  background: image-url('post-text-up.png') top no-repeat ;
   width: 276px;
   height: 7px;
   position: absolute;
@@ -57,7 +49,7 @@ margin-left: 33px;
   }
   
   .corner-down{
-  background: url('../images/post-text-down.png') bottom no-repeat ;
+  background: image-url('post-text-down.png') bottom no-repeat ;
   width: 276px;
   height: 7px;
   position: relative;

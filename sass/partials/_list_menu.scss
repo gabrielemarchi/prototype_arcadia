@@ -1,6 +1,3 @@
-@import 'susy';
-@import 'compass';
-
 nav[role="navigation_menu"] ul {
     @include span-columns(3,16);
 	list-style-type: none;

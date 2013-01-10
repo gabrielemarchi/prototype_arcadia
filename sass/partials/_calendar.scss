@@ -1,6 +1,3 @@
-@import 'susy';
-
-
 .content-calendar{
 @include pre(3);
   position: relative; 
@@ -11,14 +8,14 @@
   float: left;
   
   .corner-up{
-  background: url('../images/post-next-up.png') top no-repeat ;
+  background: image-url('post-next-up.png') top no-repeat ;
   width: 636px;
   height: 7px;
   position: absolute;
   }
   
   .corner-down{
-  background: url('../images/post-next-down.png') bottom no-repeat ;
+  background: image-url('post-next-down.png') bottom no-repeat ;
   width: 636px;
   height: 7px;
   position: relative;
@@ -27,7 +24,7 @@
 
   
   .foto{
-  background: url('../images/foto_prova.png') no-repeat;
+  background: image-url('foto_prova.png') no-repeat;
   width: 106px;
   height: 106px;
   position: relative;
@@ -79,7 +76,7 @@ margin-left: 16px;
 }
 
 .img{
-background: url('../images/img1.png') no-repeat left top;
+background: image-url('img1.png') no-repeat left top;
 width: 401px;
 height: 309px;
 
@@ -111,7 +108,7 @@ padding: 5px;
 
 
 .barra-text-calendar{
-background: url('../images/barra_text.png') no-repeat top left;
+background: image-url('barra_text.png') no-repeat top left;
 width: 27px;
 height: 1px;
 position: relative;

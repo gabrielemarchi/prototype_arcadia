@@ -1,34 +1,27 @@
-@import 'susy';
-@import 'compass';
-
-
-
-	#bottone{
+#bottone{
 	@include pre(3);
+}
+			
+nav.breadcrumb {
+	font-family: "lato black italic";
+	font-size: 16px;
+	line-height: 27px;
+	color: black;
+	text-transform: uppercase;
+	color: #00FFCE;
+	margin-top: -37px;
+				}
+nav.breadcrumb a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: #00FFCE;
+	}
+
+nav.breadcrumb a:hover,
+nav.breadcrumb a:focus {
+	color: #24CDA8;
 	}
 	
-	
-		
-	nav.breadcrumb {
-		font-family: "lato black italic";
-		font-size: 16px;
-		line-height: 27px;
-		color: black;
-		text-transform: uppercase;
-		color: #00FFCE;
-		margin-top: -37px;
-					}
-	nav.breadcrumb a {
-		margin: 0 20px;
-		text-decoration: none;
-		color: #00FFCE;
-		}
-	
-	nav.breadcrumb a:hover,
-	nav.breadcrumb a:focus {
-		color: #24CDA8;
-		}
-		
 			
 			
 #testo-bottone{
